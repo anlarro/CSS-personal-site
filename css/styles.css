@@ -49,11 +49,11 @@ hr{
   width: 5%;
 }
 
-a{
+/* a{
   color: #3a92ff;
   font-family: 'Cardo', serif;
   text-decoration: none;
-}
+} */
 
 a:hover{
   color: #eaf6f6;
@@ -110,6 +110,12 @@ a:hover{
   width: 40%;
 }
 
+.spanish-flag{
+  height: 30px;
+  width: 30px;
+  margin: 0;
+}
+
 .btn {
   background: #3cb0fd;
   background-image: -webkit-linear-gradient(top, #3cb0fd, #112d4e);
@@ -144,22 +150,23 @@ a:hover{
   line-height: 0;
 }
 
-.copyright-icons{
+.copyright{
   color: #3a92ff;
-  padding: 20px 0 0 0;
+  font-family: 'Cardo', serif;
   font-size: 1rem;
+  padding: 20px 0 0 0;
   line-height: 0;
+  text-decoration: none;
 }
 
-.footer-link{
+.fab{
+  color: #dbe2ef;
   height: 30px;
   width: 30px;
   margin: 10px 20px;
   border-radius: 50%;
 }
 
-.spanish-flag{
-  height: 30px;
-  width: 30px;
-  margin: 0;
+.fab:hover{
+  color:  #3a92ff;
 }
